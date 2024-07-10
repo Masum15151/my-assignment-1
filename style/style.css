@@ -185,6 +185,7 @@
     line-height: 26px;
     text-align: center;
     margin-bottom: 48px;
+    opacity: 0.7;
 }
 .video-container{
       width="1090"
@@ -192,6 +193,78 @@
       /* padding: 32px 0; */
       border-radius: 16px;
 }
+
+                    /* four number task start now */
+                    /* parent section */
+.my-target-section{
+    width: 1310px;
+    height: 482px;
+    margin: 0 auto;
+    
+    
+}
+               
+.target-skills{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.target-description{
+    width: 852px;
+    height: 115px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 50px;
+    margin: 0 auto;
+}
+                            /* 3 div border radius, backgruound, margin sizing */
+.first-target{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-bottom: 20px;
+}
+.second-target{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-bottom: 20px;
+}
+
+.third-target{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+                         /*img,h1,p,h3 margin sizing */
+.skill img{
+    margin-bottom: 24px;
+}
+.skill h1{
+    margin-bottom: 8px;
+}
+.skill p{
+    margin-bottom: 24px;
+}
+.skill h3{
+    text-decoration: underline;
+}
+
 
 
 
