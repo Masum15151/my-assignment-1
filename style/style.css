@@ -10,17 +10,17 @@
                           /* 1st-Task start now */
 
 .container{
-      width: 1440px;
+      max-width: 1440px;
       height: 652px;
       /* border: 2px solid red; */
-      border-style:dashed;
+      /* border-style:dashed; */
       margin: 0 auto;
       margin-top: 10px;
       background-image: url(../images/Hero-bg.png);
       
 }
 .first-content{
-    width: 998px;
+    max-width: 998px;
     height: 582px;
     /* border: 2px solid blue; */
     margin: 0 auto;
@@ -66,7 +66,7 @@
 
                             /* 2nd task start now */
  .second-container{
-    width: 1140px;
+    max-width: 1140px;
     height: 1240px;
     /* border: 2px solid red;   */
     margin: 0 auto;
@@ -154,7 +154,7 @@
                      /* third-task start now   */
                      
 .My-Inspiration-container{
-    width: 1310px;
+    max-width: 1310px;
     height: 777px;
     margin: 0 auto;
     margin-top: 80px;
@@ -195,9 +195,10 @@
 }
 
                     /* four number task start now */
+                    
                     /* parent section */
 .my-target-section{
-    width: 1310px;
+    max-width: 1310px;
     height: 482px;
     margin: 0 auto;
     
@@ -264,6 +265,78 @@
 .skill h3{
     text-decoration: underline;
 }
+                              /* four number task end */
+
+
+                /* five number task- "need support" section start  */
+  .support-section{
+    max-width: 1310px;
+    height: 314px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0,0,0,0.6);
+    background-blend-mode: overlay;
+    
+}  
+  .support-content{
+    padding: 48px 64px;
+    margin: 0 auto;
+    
+  }
+
+.support-text-content{
+    width: 1182px;
+    height: 218px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.support-text-content h1{
+    color: rgb(255, 255, 255);
+    font-weight: 700px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.support-text-content p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 70px;
+    
+    
+
+}
+.support-input{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.support-btn{
+    font-size: 20px;
+    font-weight: 600px;
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    
+
+}
+
 
 
 
